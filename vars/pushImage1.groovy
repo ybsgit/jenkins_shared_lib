@@ -5,7 +5,7 @@ def call(String project,String tag,String user,String accountId,String region){
     //  docker image push  ${user}/${project}:${tag}
     //  docker image push  ${user}/${project}:latest
     // """
-}
+//}
 
 
 withCredentials([usernamePassword(credentialsId: 'aws-cred-01', passwordVariable: 'AWS_SECRET_ACCESS_KEY', usernameVariable: 'AWS_ACCESS_KEY_ID')]) {
